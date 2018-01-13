@@ -1,0 +1,2 @@
+# FFBERainbow
+FFBE Rainbow Collector
