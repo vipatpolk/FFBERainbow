@@ -1,4 +1,4 @@
-package com.ffbe.RainbowColector;
+package com.ffbe.RainbowCollector;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

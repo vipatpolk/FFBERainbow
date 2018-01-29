@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>FFBE Rainbow Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-messages.min.js"></script>
+
+    <!-- Angular Material Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+</head>
+<body ng-app="ffbe">
+<div class="unitGrid" ng-controller="unitList as ul" flex ng-cloak>
+    </md-content>
+    <div layout="row">
+        <div flex="20">
+            <md-content layout-padding>
+                <form name="userForm">
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>Team Name</label>
+                        <input ng-model="team_name">
+                    </md-input-container>
+                    <md-button class="md-raised md-primary" ng-click="capture()">Create Your Team Image!
+                    </md-button>
+                </form>
+            </md-content>
+        </div>
+        <div flex="80" id="capture" layout-padding>
+
+
+            <md-toolbar class="md-hue-2">
+                <h2 ng-if="team_name">{{team_name}} Team</h2>
+                <h2 ng-if="!team_name">Your Team</h2>
+            </md-toolbar>
+            <section>
+                <md-subheader class="md-primary">Normal Character</md-subheader>
+                <md-grid-list
+                        md-cols="1" md-cols-sm="2" md-cols-md="3" md-cols-gt-md="8"
+                        md-row-height-gt-md="1:1" md-row-height="4:3"
+                        md-gutter="8px" md-gutter-gt-sm="4px">
+                    <md-grid-tile ng-repeat="normalUnit in unitList.data | filter: {unit_type: 'Normal'}"
+                                  md-rowspan="1"
+                                  md-colspan="1"
+                                  md-colspan-sm="1"
+                                  md-colspan-xs="1"
+                                  ng-class="normalUnit.unit_type">
+                        <md-grid-tile-header>
+                            <h3>{{normalUnit.unit_name}} [{{normalUnit.unit_count}}]</h3>
+                        </md-grid-tile-header>
+                        <div layout="column" layout-align="space-between center">
+                            <div>
+                                <img src="img/{{normalUnit.unit_image_file}}" alt="{{normalUnit.unit_name}}"/>
+                            </div>
+                        </div>
+                        <md-grid-tile-footer data-html2canvas-ignore>
+                            <md-slider-container layout-padding>
+                                <md-slider flex min="0" max="20" ng-model="normalUnit.unit_count"
+                                           aria-label="Unit Count"
+                                           id="red-slider">
+                                </md-slider>
+                            </md-slider-container>
+                        </md-grid-tile-footer>
+                    </md-grid-tile>
+                </md-grid-list>
+            </section>
+
+            <section>
+                <md-subheader class="md-primary">Exclusive Character</md-subheader>
+                <md-grid-list
+                        md-cols="1" md-cols-sm="2" md-cols-md="3" md-cols-gt-md="8"
+                        md-row-height-gt-md="1:1" md-row-height="4:3"
+                        md-gutter="8px" md-gutter-gt-sm="4px">
+                    <md-grid-tile ng-repeat="exUnit in unitList.data | filter: {unit_type: 'Exclusive'}"
+                                  md-rowspan="1"
+                                  md-colspan="1"
+                                  md-colspan-sm="1"
+                                  md-colspan-xs="1"
+                                  ng-class="exUnit.unit_type">
+                        <md-grid-tile-header>
+                            <h3>{{exUnit.unit_name}} [{{exUnit.unit_count}}]</h3>
+                        </md-grid-tile-header>
+                        <div layout="column" layout-align="space-between center">
+                            <div>
+                                <img src="img/{{exUnit.unit_image_file}}" alt="{{exUnit.unit_name}}"/>
+                            </div>
+                        </div>
+                        <md-grid-tile-footer data-html2canvas-ignore>
+                            <md-slider-container layout-padding>
+                                <md-slider flex min="0" max="20" ng-model="exUnit.unit_count"
+                                           aria-label="Unit Count"
+                                           id="red-slider">
+                                </md-slider>
+                            </md-slider-container>
+                        </md-grid-tile-footer>
+                    </md-grid-tile>
+                </md-grid-list>
+            </section>
+
+            <section>
+                <md-subheader class="md-primary">CG Character</md-subheader>
+                <md-grid-list
+                        md-cols="1" md-cols-sm="2" md-cols-md="3" md-cols-gt-md="8"
+                        md-row-height-gt-md="1:1" md-row-height="4:3"
+                        md-gutter="8px" md-gutter-gt-sm="4px">
+                    <md-grid-tile ng-repeat="cgUnit in unitList.data | filter: {unit_type: 'CG'}"
+                                  md-rowspan="1"
+                                  md-colspan="1"
+                                  md-colspan-sm="1"
+                                  md-colspan-xs="1"
+                                  ng-class="cgUnit.unit_type">
+                        <md-grid-tile-header>
+                            <h3>{{cgUnit.unit_name}} [{{cgUnit.unit_count}}]</h3>
+                        </md-grid-tile-header>
+                        <div layout="column" layout-align="space-between center">
+                            <div>
+                                <img src="img/{{cgUnit.unit_image_file}}" alt="{{cgUnit.unit_name}}"/>
+                            </div>
+                        </div>
+                        <md-grid-tile-footer data-html2canvas-ignore>
+                            <md-slider-container layout-padding>
+                                <md-slider flex min="0" max="20" ng-model="cgUnit.unit_count"
+                                           aria-label="Unit Count"
+                                           id="red-slider">
+                                </md-slider>
+                            </md-slider-container>
+                        </md-grid-tile-footer>
+                    </md-grid-tile>
+                </md-grid-list>
+            </section>
+
+            <section>
+                <md-subheader class="md-primary">Limited Character</md-subheader>
+                <md-grid-list
+                        md-cols="1" md-cols-sm="2" md-cols-md="3" md-cols-gt-md="8"
+                        md-row-height-gt-md="1:1" md-row-height="4:3"
+                        md-gutter="8px" md-gutter-gt-sm="4px">
+                    <md-grid-tile ng-repeat="limitedUnit in unitList.data | filter: {unit_type: 'Limited'}"
+                                  md-rowspan="1"
+                                  md-colspan="1"
+                                  md-colspan-sm="1"
+                                  md-colspan-xs="1"
+                                  ng-class="limitedUnit.unit_type">
+                        <md-grid-tile-header>
+                            <h3>{{limitedUnit.unit_name}} [{{limitedUnit.unit_count}}]</h3>
+                        </md-grid-tile-header>
+                        <div layout="column" layout-align="space-between center">
+                            <div>
+                                <img src="img/{{limitedUnit.unit_image_file}}" alt="{{limitedUnit.unit_name}}"/>
+                            </div>
+                        </div>
+                        <md-grid-tile-footer data-html2canvas-ignore>
+                            <md-slider-container layout-padding>
+                                <md-slider flex min="0" max="20" ng-model="limitedUnit.unit_count"
+                                           aria-label="Unit Count"
+                                           id="red-slider">
+                                </md-slider>
+                            </md-slider-container>
+                        </md-grid-tile-footer>
+                    </md-grid-tile>
+                </md-grid-list>
+            </section>
+
+        </div>
+    </div>
+
+</div>
+{{canvas}}
+
+<script src="/js/app.js"></script>
+<script src="/js/html2canvas.min.js"></script>
+</body>
+</html>
