@@ -22,9 +22,10 @@ public class unitController {
     public List<Map<?, ?>> unitList() {
         List<Map<?, ?>> unitList = new ArrayList<>();
         File input = null;
-
         try {
-            input = new ClassPathResource("data/data.csv").getFile();
+            input = new ClassPathResource("static/data/units.csv").getFile();
+
+
 
             CsvSchema csv = CsvSchema.emptySchema().withHeader();
             CsvMapper csvMapper = new CsvMapper();

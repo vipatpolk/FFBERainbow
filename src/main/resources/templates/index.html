@@ -21,22 +21,22 @@
 
 </head>
 <body ng-app="ffbe">
+
 <div class="unitGrid" ng-controller="unitList as ul" flex ng-cloak>
     </md-content>
     <div layout="row">
-        <div flex="20">
-            <md-content layout-padding>
-                <form name="userForm">
-                    <md-input-container class="md-block" flex-gt-sm>
-                        <label>Team Name</label>
-                        <input ng-model="team_name">
-                    </md-input-container>
-                    <md-button class="md-raised md-primary" ng-click="capture()">Create Your Team Image!
-                    </md-button>
-                </form>
-            </md-content>
-        </div>
-        <div flex="80" id="capture" layout-padding>
+        <md-content flex="15" layout-padding>
+
+            <form name="userForm">
+                <md-input-container class="md-block" flex-gt-sm>
+                    <label>Team Name</label>
+                    <input ng-model="team_name">
+                </md-input-container>
+                <md-button class="md-raised md-primary" ng-click="capture()">Create Your Team Image!
+                </md-button>
+            </form>
+        </md-content>
+        <md-content flex="85" id="capture" layout-padding>
 
 
             <md-toolbar class="md-hue-2">
@@ -171,11 +171,10 @@
                 </md-grid-list>
             </section>
 
-        </div>
+        </md-content>
     </div>
 
 </div>
-{{canvas}}
 
 <script src="/js/app.js"></script>
 <script src="/js/html2canvas.min.js"></script>
