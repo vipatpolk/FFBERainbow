@@ -26,7 +26,6 @@ public class unitController {
             input = new ClassPathResource("static/data/units.csv").getFile();
 
 
-
             CsvSchema csv = CsvSchema.emptySchema().withHeader();
             CsvMapper csvMapper = new CsvMapper();
             MappingIterator<Map<?, ?>> mappingIterator = csvMapper.reader()

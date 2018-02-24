@@ -1,0 +1,450 @@
+[
+  {
+    "unit_name": "Lightning ",
+    "unit_origin": "FFXIII ",
+    "unit_type": "Normal ",
+    "unit_image_file": "lightning.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Delita ",
+    "unit_origin": "FFT ",
+    "unit_type": "Normal ",
+    "unit_image_file": "delita.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Ramza ",
+    "unit_origin": "FFT ",
+    "unit_type": "Normal ",
+    "unit_image_file": "ramza.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Dark Knight Cecil ",
+    "unit_origin": "FFIV ",
+    "unit_type": "Normal ",
+    "unit_image_file": "dkc.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Luneth ",
+    "unit_origin": "FFIII ",
+    "unit_type": "Normal ",
+    "unit_image_file": "luneth.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Gilgamesh ",
+    "unit_origin": "FFV ",
+    "unit_type": "Normal ",
+    "unit_image_file": "gilgamesh.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Noctis ",
+    "unit_origin": "FFXV ",
+    "unit_type": "Normal ",
+    "unit_image_file": "noctis.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Dark Fina ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "dfina.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Ace ",
+    "unit_origin": "FF TYPE-0 ",
+    "unit_type": "Normal ",
+    "unit_image_file": "ace.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Marie ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "marie.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Emperor ",
+    "unit_origin": "FFII ",
+    "unit_type": "Normal ",
+    "unit_image_file": "emperor.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Olive ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Exclusive",
+    "unit_image_file": "olive.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Queen ",
+    "unit_origin": "FF TYPE-0 ",
+    "unit_type": "Normal ",
+    "unit_image_file": "queen.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Orlandeau ",
+    "unit_origin": "FFT ",
+    "unit_type": "Normal ",
+    "unit_image_file": "orlandeau.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Fryevia ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Exclusive",
+    "unit_image_file": "fryevia.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Trance Terra ",
+    "unit_origin": "FFVI ",
+    "unit_type": "Normal ",
+    "unit_image_file": "tterra.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Aileen ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "aileen.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Reberta ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Exclusive",
+    "unit_image_file": "reberta.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Rem ",
+    "unit_origin": "FF TYPE-0 ",
+    "unit_type": "Normal ",
+    "unit_image_file": "rem.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Wilhelm ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "wilhelm.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Fohlen ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "fohlen.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Seabreeze Dark Fina ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "sdfina.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Tidus ",
+    "unit_origin": "FFX ",
+    "unit_type": "Normal ",
+    "unit_image_file": "tidus.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Zargabaath ",
+    "unit_origin": "FFXII ",
+    "unit_type": "Exclusive",
+    "unit_image_file": "zargabaath.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Lunera ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "lunera.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Mercenary Ramza ",
+    "unit_origin": "FFT ",
+    "unit_type": "Normal ",
+    "unit_image_file": "mramza.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Knight Delita ",
+    "unit_origin": "FFT ",
+    "unit_type": "Normal ",
+    "unit_image_file": "kdelita.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Veritas of the Dark ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "vod.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Veritas of the Flame ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "vof.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Veritas of the Light ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "vol.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Onion Knight ",
+    "unit_origin": "FFIII ",
+    "unit_type": "Normal ",
+    "unit_image_file": "onion.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Prishe ",
+    "unit_origin": "FFXI ",
+    "unit_type": "Normal ",
+    "unit_image_file": "prishe.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Ayaka ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "ayaka.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Nyx ",
+    "unit_origin": "FFXV ",
+    "unit_type": "Normal ",
+    "unit_image_file": "nyx.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Loren ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "loren.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Barbariccia ",
+    "unit_origin": "FFIV ",
+    "unit_type": "Exclusive ",
+    "unit_image_file": "barbariccia.png",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Gladiolus ",
+    "unit_origin": "FFXV ",
+    "unit_type": "Normal ",
+    "unit_image_file": "gladiolus.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Duke ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "duke.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Roy ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "roy.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Cloud ",
+    "unit_origin": "FFVII ",
+    "unit_type": "Normal ",
+    "unit_image_file": "cloud.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Elfreeda ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "elfreeda.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Pyro Glacial Lasswell",
+    "unit_origin": "FFBE ",
+    "unit_type": "CG ",
+    "unit_image_file": "cglasswell.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Jiraiya ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Normal ",
+    "unit_image_file": "jiraiya.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Basch ",
+    "unit_origin": "FFXII ",
+    "unit_type": "Normal ",
+    "unit_image_file": "basch.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Balthier ",
+    "unit_origin": "FFXII ",
+    "unit_type": "Normal ",
+    "unit_image_file": "balthier.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Demon Rain ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Limited ",
+    "unit_image_file": "drain.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Dracu Lasswell ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Limited ",
+    "unit_image_file": "dlasswell.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Elza ",
+    "unit_origin": "BF ",
+    "unit_type": "Limited ",
+    "unit_image_file": "elza.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "White Knight Noel ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Limited ",
+    "unit_image_file": "wkn.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Yun ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Limited ",
+    "unit_image_file": "yun.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Randi ",
+    "unit_origin": "Secret of Mana",
+    "unit_type": "Limited ",
+    "unit_image_file": "randi.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Vargus ",
+    "unit_origin": "BF ",
+    "unit_type": "Limited ",
+    "unit_image_file": "vargus.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "2B ",
+    "unit_origin": "Nier ",
+    "unit_type": "Limited ",
+    "unit_image_file": "2b.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "A2 ",
+    "unit_origin": "Nier ",
+    "unit_type": "Limited ",
+    "unit_image_file": "a2.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Grim Lord Sakura ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Limited ",
+    "unit_image_file": "gls.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Charming Kitty Ariana",
+    "unit_origin": "Ariana ",
+    "unit_type": "Limited ",
+    "unit_image_file": "kitty.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Christine ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Limited ",
+    "unit_image_file": "christine.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Kryla ",
+    "unit_origin": "FFBE ",
+    "unit_type": "Limited ",
+    "unit_image_file": "kryla.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Ray Jack ",
+    "unit_origin": "King's Knight ",
+    "unit_type": "Limited ",
+    "unit_image_file": "rayjack.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Blossom Sage Sakura",
+    "unit_origin": "FFBE",
+    "unit_type": "CG ",
+    "unit_image_file": "cgsakura.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Ang",
+    "unit_origin": "FFBE",
+    "unit_type": "Limited",
+    "unit_image_file": "ang.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Chow",
+    "unit_origin": "FFBE",
+    "unit_type": "Limited",
+    "unit_image_file": "chow.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Aranea",
+    "unit_origin": "FFXV",
+    "unit_type": "Normal",
+    "unit_image_file": "aranea.png ",
+    "unit_count": 0
+  },
+  {
+    "unit_name": "Prompto",
+    "unit_origin": "FFXV",
+    "unit_type": "Normal",
+    "unit_image_file": "prompto.png ",
+    "unit_count": 0
+  }
+]

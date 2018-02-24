@@ -1,60 +1,65 @@
 unit_name            ,unit_origin   ,unit_type,unit_image_file,unit_count
-Lightning            ,FFXIII        ,Normal   ,lightning.PNG  ,0
-Delita               ,FFT           ,Normal   ,delita.PNG     ,0
-Ramza                ,FFT           ,Normal   ,ramza.PNG      ,0
-Dark Knight Cecil    ,FFIV          ,Normal   ,dkc.PNG        ,0
-Luneth               ,FFIII         ,Normal   ,luneth.PNG     ,0
-Gilgamesh            ,FFV           ,Normal   ,gilgamesh.PNG  ,0
-Noctis               ,FFXV          ,Normal   ,noctis.PNG     ,0
-Dark Fina            ,FFBE          ,Normal   ,dfina.PNG      ,0
-Ace                  ,FF TYPE-0     ,Normal   ,ace.PNG        ,0
-Marie                ,FFBE          ,Normal   ,marie.PNG      ,0
-Emperor              ,FFII          ,Normal   ,emperor.PNG    ,0
-Olive                ,FFBE          ,Exclusive,olive.PNG      ,0
-Queen                ,FF TYPE-0     ,Normal   ,queen.PNG      ,0
-Orlandeau            ,FFT           ,Normal   ,orlandeau.PNG  ,0
-Fryevia              ,FFBE          ,Exclusive,fryevia.PNG    ,0
-Trance Terra         ,FFVI          ,Normal   ,tterra.PNG     ,0
-Aileen               ,FFBE          ,Normal   ,aileen.PNG     ,0
-Reberta              ,FFBE          ,Exclusive,reberta.PNG    ,0
-Rem                  ,FF TYPE-0     ,Normal   ,rem.PNG        ,0
-Wilhelm              ,FFBE          ,Normal   ,wilhelm.PNG    ,0
-Fohlen               ,FFBE          ,Normal   ,fohlen.PNG     ,0
+Lightning            ,FFXIII        ,Normal   ,lightning.png  ,0
+Delita               ,FFT           ,Normal   ,delita.png     ,0
+Ramza                ,FFT           ,Normal   ,ramza.png      ,0
+Dark Knight Cecil    ,FFIV          ,Normal   ,dkc.png        ,0
+Luneth               ,FFIII         ,Normal   ,luneth.png     ,0
+Gilgamesh            ,FFV           ,Normal   ,gilgamesh.png  ,0
+Noctis               ,FFXV          ,Normal   ,noctis.png     ,0
+Dark Fina            ,FFBE          ,Normal   ,dfina.png      ,0
+Ace                  ,FF TYPE-0     ,Normal   ,ace.png        ,0
+Marie                ,FFBE          ,Normal   ,marie.png      ,0
+Emperor              ,FFII          ,Normal   ,emperor.png    ,0
+Olive                ,FFBE          ,Exclusive,olive.png      ,0
+Queen                ,FF TYPE-0     ,Normal   ,queen.png      ,0
+Orlandeau            ,FFT           ,Normal   ,orlandeau.png  ,0
+Fryevia              ,FFBE          ,Exclusive,fryevia.png    ,0
+Trance Terra         ,FFVI          ,Normal   ,tterra.png     ,0
+Aileen               ,FFBE          ,Normal   ,aileen.png     ,0
+Reberta              ,FFBE          ,Exclusive,reberta.png    ,0
+Rem                  ,FF TYPE-0     ,Normal   ,rem.png        ,0
+Wilhelm              ,FFBE          ,Normal   ,wilhelm.png    ,0
+Fohlen               ,FFBE          ,Normal   ,fohlen.png     ,0
 Seabreeze Dark Fina  ,FFBE          ,Normal   ,sdfina.png     ,0
-Tidus                ,FFX           ,Normal   ,tidus.PNG      ,0
-Zargabaath           ,FFXII         ,Exclusive,zargabaath.PNG ,0
-Lunera               ,FFBE          ,Normal   ,lunera.PNG     ,0
-Mercenary Ramza      ,FFT           ,Normal   ,mramza.PNG     ,0
-Knight Delita        ,FFT           ,Normal   ,kdelita.PNG    ,0
-Veritas of the Dark  ,FFBE          ,Normal   ,vod.PNG        ,0
-Veritas of the Flame ,FFBE          ,Normal   ,vof.PNG        ,0
-Veritas of the Light ,FFBE          ,Normal   ,vol.PNG        ,0
-Onion Knight         ,FFIII         ,Normal   ,onion.PNG      ,0
-Prishe               ,FFXI          ,Normal   ,prishe.PNG     ,0
-Ayaka                ,FFBE          ,Normal   ,ayaka.PNG      ,0
-Nyx                  ,FFXV          ,Normal   ,nyx.PNG        ,0
-Loren                ,FFBE          ,Normal   ,loren.PNG      ,0
-Barbariccia          ,FFIV          ,Normal   ,barbariccia.PNG,0
-Gladiolus            ,FFXV          ,Normal   ,gladiolus.PNG  ,0
-Duke                 ,FFBE          ,Normal   ,duke.PNG       ,0
-Roy                  ,FFBE          ,Normal   ,roy.PNG        ,0
-Cloud                ,FFVII         ,Normal   ,cloud.PNG      ,0
-Elfreeda             ,FFBE          ,Normal   ,elfreeda.PNG   ,0
-Pyro Glacial Lasswell,FFBE          ,CG       ,cglasswell.PNG ,0
-Jiraiya              ,FFBE          ,Normal   ,jiraiya.PNG    ,0
-Basch                ,FFXII         ,Normal   ,basch.PNG      ,0
-Balthier             ,FFXII         ,Normal   ,balthier.PNG   ,0
-Demon Rain           ,FFBE          ,Limited  ,drain.PNG      ,0
-Dracu Lasswell       ,FFBE          ,Limited  ,dlasswell.PNG  ,0
-Elza                 ,BF            ,Limited  ,elza.PNG       ,0
-White Knight Noel    ,FFBE          ,Limited  ,wkn.PNG        ,0
-Yun                  ,FFBE          ,Limited  ,yun.PNG        ,0
-Randi                ,Secret of Mana,Limited  ,randi.PNG      ,0
-Vargun               ,BF            ,Limited  ,vargus.PNG     ,0
-2B                   ,Nier          ,Limited  ,2b.PNG         ,0
-A2                   ,nNier         ,Limited  ,a2.PNG         ,0
-Grim Lord Sakura     ,FFBE          ,Limited  ,gls.PNG        ,0
-Charming Kitty Ariana,Ariana        ,Limited  ,kitty.PNG      ,0
-Christine            ,FFBE          ,Limited  ,Christine.PNG  ,0
-Kryla                ,FFBE          ,Limited  ,kryla.PNG      ,0
-Ray Jack             ,King's Knight ,Limited  ,rayjack.PNG    ,0
+Tidus                ,FFX           ,Normal   ,tidus.png      ,0
+Zargabaath           ,FFXII         ,Exclusive,zargabaath.png ,0
+Lunera               ,FFBE          ,Normal   ,lunera.png     ,0
+Mercenary Ramza      ,FFT           ,Normal   ,mramza.png     ,0
+Knight Delita        ,FFT           ,Normal   ,kdelita.png    ,0
+Veritas of the Dark  ,FFBE          ,Normal   ,vod.png        ,0
+Veritas of the Flame ,FFBE          ,Normal   ,vof.png        ,0
+Veritas of the Light ,FFBE          ,Normal   ,vol.png        ,0
+Onion Knight         ,FFIII         ,Normal   ,onion.png      ,0
+Prishe               ,FFXI          ,Normal   ,prishe.png     ,0
+Ayaka                ,FFBE          ,Normal   ,ayaka.png      ,0
+Nyx                  ,FFXV          ,Normal   ,nyx.png        ,0
+Loren                ,FFBE          ,Normal   ,loren.png      ,0
+Barbariccia          ,FFIV          ,Limited  ,barbariccia.png,0
+Gladiolus            ,FFXV          ,Normal   ,gladiolus.png  ,0
+Duke                 ,FFBE          ,Normal   ,duke.png       ,0
+Roy                  ,FFBE          ,Normal   ,roy.png        ,0
+Cloud                ,FFVII         ,Normal   ,cloud.png      ,0
+Elfreeda             ,FFBE          ,Normal   ,elfreeda.png   ,0
+Pyro Glacial Lasswell,FFBE          ,CG       ,cglasswell.png ,0
+Jiraiya              ,FFBE          ,Normal   ,jiraiya.png    ,0
+Basch                ,FFXII         ,Normal   ,basch.png      ,0
+Balthier             ,FFXII         ,Normal   ,balthier.png   ,0
+Demon Rain           ,FFBE          ,Limited  ,drain.png      ,0
+Dracu Lasswell       ,FFBE          ,Limited  ,dlasswell.png  ,0
+Elza                 ,BF            ,Limited  ,elza.png       ,0
+White Knight Noel    ,FFBE          ,Limited  ,wkn.png        ,0
+Yun                  ,FFBE          ,Limited  ,yun.png        ,0
+Randi                ,Secret of Mana,Limited  ,randi.png      ,0
+Vargun               ,BF            ,Limited  ,vargus.png     ,0
+2B                   ,Nier          ,Limited  ,2b.png         ,0
+A2                   ,nNier         ,Limited  ,a2.png         ,0
+Grim Lord Sakura     ,FFBE          ,Limited  ,gls.png        ,0
+Charming Kitty Ariana,Ariana        ,Limited  ,kitty.png      ,0
+Christine            ,FFBE          ,Limited  ,Christine.png  ,0
+Kryla                ,FFBE          ,Limited  ,kryla.png      ,0
+Ray Jack             ,King's Knight ,Limited  ,rayjack.png    ,0
+Blossom Sage Sakura  ,FFBE          ,CG       ,cgsakura.png   ,0
+Ang                  ,FFBE          ,CG       ,ang.png        ,0
+Chow                 ,FFBE          ,CG       ,chow.png       ,0
+Aranea               ,FFXV          ,Normal   ,aranea.png     ,0
+Prompto              ,FFXV          ,Normal   ,prompto.png    ,0
