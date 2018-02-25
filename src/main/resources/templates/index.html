@@ -39,6 +39,8 @@
                 </md-input-container>
                 <md-button class="md-raised md-primary" ng-click="capture()">Create Your Team Image!
                 </md-button>
+                <md-button class="md-raised md-primary" ng-click="reset()">Reset
+                </md-button>
             </form>
         </md-content>
         <md-content flex="85" id="capture" layout-padding>
@@ -49,7 +51,9 @@
                 <h2 ng-if="!team_name">Your Team [{{count}}]</h2>
             </md-toolbar>
             <section>
-                <md-subheader class="md-primary">Normal Character</md-subheader>
+                <md-chips>
+                    <md-chip>Normal Character</md-chip>
+                </md-chips>
                 <md-grid-list
                         md-cols="7" md-row-height="4:3"
                         md-gutter="8px">
@@ -62,25 +66,23 @@
                         </md-grid-tile-header>
                         <div layout="column" layout-align="space-between center">
                             <div>
-                                <img ng-style="normalUnit.unit_count === 0 && {'opacity':'0.5'}" class="unit_image"
+                                <img ng-class="normalUnit.unit_count === 0 && 'unit-none'" class="unit_image"
                                      src="img/{{normalUnit.unit_image_file}}"
                                      alt="{{normalUnit.unit_name}}"/>
                             </div>
                         </div>
                         <md-grid-tile-footer layout-padding>
                             <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                                <md-button data-html2canvas-ignore class="md-fab md-mini md-primary"
+                                <md-button data-html2canvas-ignore class="md-icon-button md-mini md-primary"
                                            ng-disabled="normalUnit.unit_count === 0"
                                            ng-click="normalUnit.unit_count = normalUnit.unit_count-1;removeCount()">
                                     <md-icon class="material-icons">remove</md-icon>
                                 </md-button>
-                                <md-button class="md-fab md-mini" ng-disabled="true">{{normalUnit.unit_count}}
+                                <md-button class="unitCount md-fab md-mini" ng-disabled="true">{{normalUnit.unit_count}}
                                 </md-button>
-                                <md-button data-html2canvas-ignore class="md-fab md-mini md-primary"
+                                <md-button data-html2canvas-ignore class="md-icon-button md-mini md-primary"
                                            ng-click="normalUnit.unit_count = normalUnit.unit_count+1;addCount()">
-                                    <md-icon
-                                            class="material-icons">add
-                                    </md-icon>
+                                    <md-icon class="material-icons">add</md-icon>
                                 </md-button>
                             </section>
                         </md-grid-tile-footer>
@@ -89,7 +91,9 @@
             </section>
 
             <section>
-                <md-subheader class="md-primary">Exclusive Character</md-subheader>
+                <md-chips>
+                    <md-chip>Exclusive Character</md-chip>
+                </md-chips>
                 <md-grid-list
                         md-cols="7" md-row-height="4:3"
                         md-gutter="8px">
@@ -102,24 +106,23 @@
                         </md-grid-tile-header>
                         <div layout="column" layout-align="space-between center">
                             <div>
-                                <img ng-style="exUnit.unit_count === 0 && {'opacity':'0.5'}" class="unit_image"
+                                <img ng-class="exUnit.unit_count === 0 && 'unit-none'" class="unit_image"
                                      src="img/{{exUnit.unit_image_file}}"
                                      alt="{{exUnit.unit_name}}"/>
                             </div>
                         </div>
                         <md-grid-tile-footer layout-padding>
                             <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                                <md-button data-html2canvas-ignore class="md-fab md-mini md-primary"
+                                <md-button data-html2canvas-ignore class="md-icon-button md-mini md-primary"
                                            ng-disabled="exUnit.unit_count === 0"
                                            ng-click="exUnit.unit_count = exUnit.unit_count-1;removeCount()">
                                     <md-icon class="material-icons">remove</md-icon>
                                 </md-button>
-                                <md-button class="md-fab md-mini" ng-disabled="true">{{exUnit.unit_count}}</md-button>
-                                <md-button data-html2canvas-ignore class="md-fab md-mini md-primary"
+                                <md-button class="unitCount md-fab md-mini" ng-disabled="true">{{exUnit.unit_count}}
+                                </md-button>
+                                <md-button data-html2canvas-ignore class="md-icon-button md-mini md-primary"
                                            ng-click="exUnit.unit_count = exUnit.unit_count+1;addCount()">
-                                    <md-icon
-                                            class="material-icons">add
-                                    </md-icon>
+                                    <md-icon class="material-icons">add</md-icon>
                                 </md-button>
                             </section>
                             </md-slider-container>
@@ -129,7 +132,9 @@
             </section>
 
             <section>
-                <md-subheader class="md-primary">CG Character</md-subheader>
+                <md-chips>
+                    <md-chip>CGCharacter</md-chip>
+                </md-chips>
                 <md-grid-list
                         md-cols="7" md-row-height="4:3"
                         md-gutter="8px">
@@ -142,24 +147,23 @@
                         </md-grid-tile-header>
                         <div layout="column" layout-align="space-between center">
                             <div>
-                                <img ng-style="cgUnit.unit_count === 0 && {'opacity':'0.5'}" class="unit_image"
+                                <img ng-class="cgUnit.unit_count === 0 && 'unit-none'" class="unit_image"
                                      src="img/{{cgUnit.unit_image_file}}"
                                      alt="{{cgUnit.unit_name}}"/>
                             </div>
                         </div>
                         <md-grid-tile-footer layout-padding>
                             <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                                <md-button data-html2canvas-ignore class="md-fab md-mini md-primary"
+                                <md-button data-html2canvas-ignore class="md-icon-button md-mini md-primary"
                                            ng-disabled="cgUnit.unit_count === 0"
                                            ng-click="cgUnit.unit_count = cgUnit.unit_count-1;removeCount()">
                                     <md-icon class="material-icons">remove</md-icon>
                                 </md-button>
-                                <md-button class="md-fab md-mini" ng-disabled="true">{{cgUnit.unit_count}}</md-button>
-                                <md-button data-html2canvas-ignore class="md-fab md-mini md-primary"
+                                <md-button class="unitCount md-fab md-mini" ng-disabled="true">{{cgUnit.unit_count}}
+                                </md-button>
+                                <md-button data-html2canvas-ignore class="md-icon-button md-mini md-primary"
                                            ng-click="cgUnit.unit_count = cgUnit.unit_count+1;addCount()">
-                                    <md-icon
-                                            class="material-icons">add
-                                    </md-icon>
+                                    <md-icon class="material-icons">add</md-icon>
                                 </md-button>
                             </section>
                         </md-grid-tile-footer>
@@ -168,7 +172,9 @@
             </section>
 
             <section>
-                <md-subheader class="md-primary">Limited Character</md-subheader>
+                <md-chips>
+                    <md-chip>Limited Character</md-chip>
+                </md-chips>
                 <md-grid-list
                         md-cols="7" md-row-height="4:3"
                         md-gutter="8px">
@@ -181,25 +187,24 @@
                         </md-grid-tile-header>
                         <div layout="column" layout-align="space-between center">
                             <div>
-                                <img ng-style="limitedUnit.unit_count === 0 && {'opacity':'0.5'}" class="unit_image"
+                                <img ng-class="limitedUnit.unit_count === 0 && 'unit-none'" class="unit_image"
                                      src="img/{{limitedUnit.unit_image_file}}"
                                      alt="{{limitedUnit.unit_name}}"/>
                             </div>
                         </div>
                         <md-grid-tile-footer layout-padding>
                             <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                                <md-button data-html2canvas-ignore class="md-fab md-mini md-primary"
+                                <md-button data-html2canvas-ignore class="md-icon-button md-mini md-primary"
                                            ng-disabled="limitedUnit.unit_count === 0"
                                            ng-click="limitedUnit.unit_count = limitedUnit.unit_count-1;removeCount()">
                                     <md-icon class="material-icons">remove</md-icon>
                                 </md-button>
-                                <md-button class="md-fab md-mini" ng-disabled="true">{{limitedUnit.unit_count}}
+                                <md-button class="unitCount md-fab md-mini" ng-disabled="true">
+                                    {{limitedUnit.unit_count}}
                                 </md-button>
-                                <md-button data-html2canvas-ignore class="md-fab md-mini md-primary"
+                                <md-button data-html2canvas-ignore class="md-icon-button md-mini md-primary"
                                            ng-click="limitedUnit.unit_count = limitedUnit.unit_count+1;addCount()">
-                                    <md-icon
-                                            class="material-icons">add
-                                    </md-icon>
+                                    <md-icon class="material-icons">add</md-icon>
                             </section>
                         </md-grid-tile-footer>
                     </md-grid-tile>

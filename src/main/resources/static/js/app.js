@@ -21,6 +21,16 @@ $scope.addCount = function(){
 $scope.removeCount = function(){
     $scope.count--;
 }
+
+$scope.reset = function(){
+          for(var i = 0; i<$scope.unitList.length; i++)
+          {
+             $scope.unitList[i].unit_count = 0;
+          }
+$scope.count = 0;
+       }
+
+
   $scope.capture = function (ev) {
 var html = angular.element(document.querySelector("html"));
 html.addClass("hide-scrollbar");
